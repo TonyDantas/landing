@@ -1,0 +1,31 @@
+.banner {
+  background-image: url('../../images/Manifestation.jpeg');
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+  color: white;
+  display: flex;
+
+}
+
+.banner h1, p {
+  text-shadow: 0 0 15px black;
+  margin: 0px 10px;
+  margin-bottom: 4px;
+}
+
+.banner a {
+  background: red;
+  color: white;
+  text-decoration: none;
+  margin: 20px;
+  padding: 10px 30px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.banner a:hover {
+  background: #31112c;
+  transition: 0.3s;
+  color: white;
+}
